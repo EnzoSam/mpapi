@@ -10,6 +10,12 @@ var controller = {
             message: m
         });
     }
+    ,notifications: function (req, res) {
+
+        return res.status(200).send({
+            message: req
+        });
+    }
 }
 
 module.exports = controller;
