@@ -12,8 +12,9 @@ var controller = {
     }
     ,notifications: function (req, res) {
 
+        console.log(req);
         return res.status(200).send({
-            message: req
+            message: 'ok'
         });
     }
 }
