@@ -32,7 +32,7 @@ app.get("/", (req, res) => {
 
 app.post("/notifications", (req, res) => {
 
- console.log(req)
+ console.log(req.body)
   res.sendStatus(200);
 });
 
