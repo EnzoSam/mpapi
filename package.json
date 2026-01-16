@@ -22,8 +22,7 @@
   "homepage": "https://github.com/EnzoSam/help-desk-ws-webhook#readme",
   "dependencies": {
     "cors": "^2.8.5",
-    "express": "^5.1.0",
-    "firebase-admin": "^13.6.0"
+    "express": "^5.1.0"
   },
   "devDependencies": {
     "@types/cors": "^2.8.19",

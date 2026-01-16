@@ -1,6 +1,6 @@
 import express from "express";
 import cors from "cors";
-import admin from "firebase-admin";
+//import admin from "firebase-admin";
 
 const app = express();
 const port = process.env.PORT || 3000;
@@ -8,7 +8,7 @@ app.use(express.json());
 app.use(cors());
 
 //var serviceAccount = require("path/to/serviceAccountKey.json");
-
+/*
 const serviceAccount = {
   type: process.env.FIREBASE_TYPE || "",
   project_id: process.env.FIREBASE_PROJECT_ID || "",
@@ -24,7 +24,7 @@ const serviceAccount = {
 };
 admin.initializeApp({
   credential: admin.credential.cert(serviceAccount as admin.ServiceAccount),
-});
+});*/
 
 app.get("/", (req, res) => {
   res.status(200).send("OK!!!");
